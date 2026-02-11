@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: file-sharing-api
+    env: python3
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python run.py"
